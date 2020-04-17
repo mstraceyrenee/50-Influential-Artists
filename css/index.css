@@ -121,7 +121,7 @@ header nav a:first-of-type {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  width: 800px;
+  width: 80%;
   height: 400px;
   background-image: url("/Users/wndrfltray/Desktop/Web31Example/50-Influential-Artists/assets/home.png");
   background-size: cover;
@@ -154,6 +154,13 @@ header nav a:first-of-type {
   width: 800px;
   margin: 20px auto;
 }
+@media (max-width: 500px) {
+  .artists-container {
+    width: 500px;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .artists-container .artist {
   display: flex;
   justify-content: flex-start;
@@ -161,11 +168,26 @@ header nav a:first-of-type {
   align-items: center;
   width: 50%;
 }
+@media (max-width: 500px) {
+  .artists-container .artist {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
 .artists-container .artist img {
   width: 70%;
   height: 200px;
   border-radius: 7px;
   margin-bottom: 10px;
+}
+@media (max-width: 500px) {
+  .artists-container .artist img {
+    width: 80%;
+    height: auto;
+  }
+}
+.artists-container .artist img:hover {
+  opacity: 0.8;
 }
 .artists-container .artist a {
   font-size: 1.8rem;
@@ -177,4 +199,9 @@ header nav a:first-of-type {
   width: 90%;
   font-size: 1.2rem;
   text-align: center;
+}
+@media (max-width: 500px) {
+  .artists-container .artist .bio {
+    width: 80%;
+  }
 }

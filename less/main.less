@@ -1,7 +1,7 @@
 .title-container {
     .displayFlex (center, column);
     align-items: center;
-    width: 800px;
+    width: 80%;
     height: 400px;
     background-image: url("/Users/wndrfltray/Desktop/Web31Example/50-Influential-Artists/assets/home.png");
     background-size: cover;
@@ -24,16 +24,36 @@
     width: 800px;
     margin: 20px auto;
 
+    @media (max-width: 500px){
+        width: 500px;
+        flex-direction: column;
+        align-items: center;
+    }
+
     .artist {
         .displayFlex (flex-start, column);
         align-items: center;
         width: 50%;
+
+        @media (max-width: 500px) {
+            width: 100%;
+            margin-bottom: 20px;
+        }
 
         img {
             width: 70%;
             height: 200px;
             border-radius: 7px;
             margin-bottom: 10px;
+
+            @media (max-width: 500px) {
+                width: 80%;
+                height: auto;
+            }
+
+            &:hover {
+                opacity: 0.8;
+            }
         }
 
         a {
@@ -46,6 +66,10 @@
             width: 90%;
             font-size: 1.2rem;
             text-align: center;
+
+            @media (max-width: 500px) {
+                width: 80%;
+            }
         }
     }
 }
