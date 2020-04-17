@@ -127,7 +127,7 @@ header nav a:first-of-type {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  margin: 0 auto 20px;
+  margin: 0 auto 40px;
 }
 .title-container h1 {
   font-size: 4rem;
@@ -144,20 +144,37 @@ header nav a:first-of-type {
   border: 1px solid gray;
   border-radius: 3px;
   text-align: center;
-  padding-top: 11px;
+  padding-top: 7px;
   box-shadow: 1px 2px;
-}
-.title-container hr {
-  width: 840px;
-  border-top: 1px solid gray;
 }
 .artists-container {
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
   width: 800px;
-  margin: 10px auto;
+  margin: 20px auto;
 }
 .artists-container .artist {
-  width: 40%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+.artists-container .artist img {
+  width: 70%;
+  height: 200px;
+  border-radius: 7px;
+  margin-bottom: 10px;
+}
+.artists-container .artist a {
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 10px;
+}
+.artists-container .artist .bio {
+  width: 90%;
+  font-size: 1.2rem;
+  text-align: center;
 }

@@ -7,7 +7,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    margin: 0 auto 20px;
+    margin: 0 auto 40px;
     
     h1 {
         font-size: 4rem;
@@ -18,19 +18,36 @@
     button {
         .btn (white, 1.8rem);
     }
-
-    hr {
-        width: 840px;
-        border-top: 1px solid gray;
-    }
 }
 
 .artists-container {
     .displayFlex (space-evenly, row);
     width: 800px;
-    margin: 10px auto;
+    margin: 20px auto;
 
     .artist {
-        width: 40%;
+        .displayFlex (flex-start, column);
+        align-items: center;
+        width: 50%;
+
+        img {
+            width: 70%;
+            height: 200px;
+            border-radius: 7px;
+            margin-bottom: 10px;
+        }
+
+        a {
+            font-size: 1.8rem;
+            text-decoration: none;
+            color: black;
+            margin-bottom: 10px;
+        }
+
+        .bio {
+            width: 90%;
+            font-size: 1.2rem;
+            text-align: center;
+        }
     }
 }
