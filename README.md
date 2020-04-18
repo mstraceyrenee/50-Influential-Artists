@@ -30,7 +30,7 @@ Preprocessing allows you to code more efficiently by letting you nest items and 
 
 2. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
 
-I like the nesting concept as it makes it easier to find specific areas of your code when needed.
+I like the nesting concept as it makes it easier to find specific areas of your code when needed. I am having a very difficult time understanding arrays and objects.
 
 3. How would you explain the concept of a variable to someone new to programming?
 
