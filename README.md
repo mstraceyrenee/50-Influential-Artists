@@ -25,10 +25,25 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. How would you describe preprocessing to someone new to CSS?
+
+Preprocessing allows you to code more efficiently by letting you nest items and store bits of code that can be used over and over again.
+
 2. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+I like the nesting concept as it makes it easier to find specific areas of your code when needed.
+
 3. How would you explain the concept of a variable to someone new to programming?
+
+A variable stores information such as a color or font that can easily be recalled later in your code. It also makes it easier to change those items later as you only have to edit one place instead of multiple lines of code.
+
 4. What is the purpose of using functions in code?
+
+Functions protect a block of code until it is invoked. They can be used over and over again.
+
 5. What is a JSON data?
+
+JSON data is data that has been formatted to be sent between a server and a web application.
+
 
 You may need to look up an answer but, you are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
